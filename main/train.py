@@ -12,7 +12,7 @@ import datetime
 import h5py
 import time
 
-EPOCHS = 15
+EPOCHS = 30
 CLASS = 21
 FILE_NAME = 'cnn_model_LIBRAS_'
 
@@ -62,7 +62,7 @@ early_stopping_monitor = EarlyStopping(monitor='val_loss', mode='min', verbose=1
 
 model = Convolucao.build(64, 64, 3, CLASS)
 model.compile(optimizer=SGD(0.01), loss="categorical_crossentropy",
-              metrics=["accuracy"])
+              metrics=["acc"])
 
 # treinar a CNN
 print("[INFO] Treinando a CNN...")
