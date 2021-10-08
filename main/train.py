@@ -12,7 +12,7 @@ import datetime
 import h5py
 import time
 
-EPOCHS = 30
+EPOCHS = 15
 CLASS = 21
 FILE_NAME = 'cnn_model_LIBRAS_'
 
