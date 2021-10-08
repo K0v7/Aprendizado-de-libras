@@ -6,7 +6,6 @@ from PIL import Image
 from keras.preprocessing import image
 
 
-
 def nothing(x):
     pass
 
@@ -36,6 +35,7 @@ def predictor():
             class_index = x
 
     return [result, letras[str(class_index)]]
+
 
 cam = cv2.VideoCapture(0)
 img_counter = 0
