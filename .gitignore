@@ -5,10 +5,9 @@ __pycache__/
 .idea
 logs/*
 models/graphics/*
-models/image/.png*
+models/image/*.png
 models/other_models
-models/.h5*
-main/app_64x64x1.py
+models/*.h5
 dataset/test/A/*
 dataset/test/B/*
 dataset/test/C/*
