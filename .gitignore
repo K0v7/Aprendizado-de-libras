@@ -6,7 +6,7 @@ __pycache__/
 logs/*
 models/graphics/*
 models/image/.png*
-models/models_othermodels
+models/other_models
 models/.h5*
 main/app_64x64x1.py
 dataset/test/A/*
