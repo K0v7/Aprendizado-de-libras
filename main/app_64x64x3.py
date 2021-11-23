@@ -12,8 +12,9 @@ def nothing(x):
 
 image_x, image_y = 64, 64
 
-# classifier = load_model('../models/cnn_model_LIBRAS_20190531_0135.h5')
-classifier = load_model('../models/cnn_model_LIBRAS_20190606_0106.h5')
+# classifier = load_model('../models/cnn_model_LIBRAS_20212709_2324.h5')
+# classifier = load_model('../models/cnn_model_LIBRAS_20212809_2229.h5')
+classifier = load_model('../models/cnn_model_LIBRAS_20212909_2343.h5')
 
 classes = 21
 letras = {'0': 'A', '1': 'B', '2': 'C', '3': 'D', '4': 'E', '5': 'F', '6': 'G', '7': 'I', '8': 'L', '9': 'M', '10': 'N',
